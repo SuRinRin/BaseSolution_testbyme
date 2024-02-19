@@ -3,7 +3,7 @@ using BaseSolution.Domain.Enums;
 
 namespace BaseSolution.Domain.Entities
 {
-    public class ExampleEntity : IEntityBase
+    public class ExampleEntity : EntityBase
     {
         public Guid Id { get; set; }
         public string Name { get; set; } = null!;
