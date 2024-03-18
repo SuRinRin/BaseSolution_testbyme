@@ -7,12 +7,10 @@ using System.Threading.Tasks;
 
 namespace BaseSolution.Domain.Entities
 {
-	public class RoleEntity : EntityBase
+	public class CategoryEntity : EntityBase
 	{
         public Guid Id { get; set; }
-		public string RoleName { get; set; }
-		public string Description { get; set; }
-
-		public virtual ICollection<UserRoleEntity>? UserRoles { get; set; }
-	}
+		public string Name { get; set; }
+		public virtual ICollection<ProductCategoryEntity>? ProductCategories { get; set; }
+    }
 }

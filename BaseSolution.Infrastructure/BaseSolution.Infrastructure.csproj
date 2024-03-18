@@ -31,6 +31,7 @@
 	<ItemGroup>
 	  <ProjectReference Include="..\BaseSolution.Application\BaseSolution.Application.csproj" />
 	  <ProjectReference Include="..\BaseSolution.DAL\BaseSolution.Domain.csproj" />
+	  <ProjectReference Include="..\BaseSolution.Shared\BaseSolution.Shared.csproj" />
 	</ItemGroup>
 
 </Project>
