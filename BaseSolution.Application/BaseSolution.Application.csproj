@@ -14,6 +14,9 @@
 
 	<ItemGroup>
 		<Folder Include="DataTransferObjects\Example\Response\" />
+		<Folder Include="DataTransferObjects\Cart\" />
+		<Folder Include="DataTransferObjects\Category\" />
+		<Folder Include="DataTransferObjects\Order\" />
 	</ItemGroup>
 
 	<ItemGroup>

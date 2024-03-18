@@ -29,7 +29,7 @@ namespace BaseSolution.Infrastructure.ViewModels.Example
             try
             {
                 var createResult = await _exampleReadWriteRepository.AddExampleAsync(_mapper.Map<ExampleEntity>(request), cancellationToken);
-
+                
                 if (createResult.Success)
                 {
                     var result = await _exampleReadOnlyRepository.GetExampleByIdAsync(createResult.Data, cancellationToken);

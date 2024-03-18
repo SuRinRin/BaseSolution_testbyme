@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace BaseSolution.Infrastructure.Database.Configurations
 {
-	public class UserEntityConfigurations : IEntityTypeConfiguration<UserEntity>
+	public partial class UserEntityConfigurations : IEntityTypeConfiguration<UserEntity>
 	{
 		public void Configure(EntityTypeBuilder<UserEntity> builder)
 		{
